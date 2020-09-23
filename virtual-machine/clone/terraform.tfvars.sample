@@ -2,7 +2,7 @@ vsphere_password = "P@$$w0rd!"
 
 vsphere_server = "vcsa.internal"
 
-datastore = "ds00"
+datastore = "ds001"
 
 template_name = "templates/ubuntu20-2020-09-23"
 
