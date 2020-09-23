@@ -1,0 +1,13 @@
+vsphere_password = "P@$$w0rd!"
+
+vsphere_server = "vcsa.internal"
+
+vcsa_license = "AAAAA-BBBBB-CCCCC-11111-22222"
+
+vsphere_license = "AAAAA-BBBBB-CCCCC-33333-44444"
+
+tag_env = "development"
+
+vsphere_host1_name = "esxi.internal"
+
+vsphere_host1_thumbprint = "A1:B1:C1:2D:A1:B1:C1:2D:A1:B1:C1:2D:A1:B1:C1:2D:A1:B1:C1:2D"

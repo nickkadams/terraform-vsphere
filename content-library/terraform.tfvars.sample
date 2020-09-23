@@ -1,0 +1,5 @@
+vsphere_password = "P@$$w0rd!"
+
+vsphere_server = "vcsa.internal"
+
+datastore = "ds001"

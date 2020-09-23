@@ -1,0 +1,15 @@
+vsphere_password = "P@$$w0rd!"
+
+vsphere_server = "vcsa.internal"
+
+datastore = "ds00"
+
+template_name = "templates/ubuntu20-2020-09-23"
+
+instance_count = 3
+
+vm_name = "test"
+
+tag_env = "development"
+
+domain = "internal"
