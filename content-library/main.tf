@@ -46,3 +46,11 @@ resource "vsphere_content_library_item" "centos8" {
   file_url    = "http://repo1.ash.innoscale.net/centos/8/isos/x86_64/CentOS-8.2.2004-x86_64-minimal.iso"
   type        = "iso"
 }
+
+resource "vsphere_content_library_item" "rancher" {
+  name        = "RancherOS 1.5"
+  description = "RancherOS ISO"
+  library_id  = vsphere_content_library.library.id
+  file_url    = "https://releases.rancher.com/os/v1.5.6/vmware/rancheros.iso"
+  type        = "iso"
+}
